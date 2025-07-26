@@ -1,23 +1,11 @@
 # Demo Video
 
-Please record a 3–5 minute walkthrough showing:
+Project Introduction: The video introduces the "Color-Mood Analyzer Agent," a project designed to creatively analyze text sentiment by translating words into colors.
 
-- The problem you solve  
-- End-to-end agent behavior on a representative example  
-- Highlighted “agentic” steps (planning, tool calls, memory use)
+Agent Architecture: The video explains the agent's core architecture, highlighting the planner for task decomposition, the executor for running tools, and main.py as the overall orchestrator.
 
----
+Tool Integration: The demonstration showcases how the agent's tools work in a multi-step process, with a Colorizer encoding text into colors and a separate SentimentAnalyzer decoding mood from the colors alone.
 
-📺 **Provide a Hosted Public Video Link (YouTube unlisted / Loom / MP4):**  MUST BE ON A HOS
-https://your.video.link.here
+End-to-End Demo: The video concludes with a live walkthrough, showing the agent successfully planning, executing, and presenting a final report on the analyzed text's mood.
 
-PLEASE DO NOT UPLOAD RAW VIDOE FILES. These submissions will not be reviewed.
-
-### Timestamps
-
-- **00:00–00:30** — Introduction & setup  
-- **00:30–01:30** — User input → Planning step  
-- **01:30–02:30** — Tool calls & memory retrieval  
-- **02:30–03:30** — Final output & edge-case handling
-
-- Vidoes longer than 5 minutes may not be reviewd. 
+📺 Video Link (Google Drive): https://drive.google.com/file/d/1CsBih5vuTrJuAt5NVU8hKt8MHxWrxm3q/view?usp=sharing
