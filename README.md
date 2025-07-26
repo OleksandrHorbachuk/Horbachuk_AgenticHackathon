@@ -3,24 +3,24 @@ This AI agent analyzes the sentiment of a text by associating its words with col
 
 Setup and Run
 
-    Fork the repository:
-git clone https://github.com/OleksandrHorbachuk/Horbachuk_AgenticHackathon
-cd Horbachuk_AgenticHackathon
+Fork the repository:
+    git clone https://github.com/OleksandrHorbachuk/Horbachuk_AgenticHackathon
+    cd Horbachuk_AgenticHackathon
 
-    Create and activate a virtual environment:
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+Create and activate a virtual environment:
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
-    Install dependencies manually:
-pip install google-generativeai
-pip install python-dotenv
+Install dependencies manually:
+    pip install google-generativeai
+    pip install python-dotenv
 
-    Configure the Gemini API:
-Get your free API key from Google AI Studio.
-Create a file named .env in the root directory of your project.
-Add your key to the file: GOOGLE_API_KEY="YOUR_API_KEY"
+Configure the Gemini API:
+1. Get your free API key from Google AI Studio.
+2. Create a file named .env in the root directory of your project.
+3. Add your key to the file: GOOGLE_API_KEY="YOUR_API_KEY"
 
-    Run the agent:
-python src/main.py
+Run the agent:
+    python src/main.py
 
 The program will prompt you to enter a text for analysis.
